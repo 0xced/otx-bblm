@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F35C4A305A096310030C7CA /* otx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4605B05179C27006BE845 /* otx.cpp */; };
+		5F35C4A505A096310030C7CA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EADE3EB056EA181004A4EFC /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EADE3EB056EA181004A4EFC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2ED4605B05179C27006BE845 /* otx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = otx.cpp; sourceTree = "<group>"; };
+		5F35C4A805A096310030C7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F35C4A905A096310030C7CA /* otx.bblm */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otx.bblm; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F35C4A405A096310030C7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F35C4A505A096310030C7CA /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Hello World */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				2EADE3EB056EA181004A4EFC /* Carbon.framework */,
+				5F35C4A805A096310030C7CA /* Info.plist */,
+				5F35C4A905A096310030C7CA /* otx.bblm */,
+			);
+			name = "Hello World";
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4605B05179C27006BE845 /* otx.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F35C49D05A096310030C7CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F35C49C05A096310030C7CA /* otx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4F91BE08631638009D6578 /* Build configuration list for PBXNativeTarget "otx" */;
+			buildPhases = (
+				5F35C49D05A096310030C7CA /* Headers */,
+				5F35C4A105A096310030C7CA /* Resources */,
+				5F35C4A205A096310030C7CA /* Sources */,
+				5F35C4A405A096310030C7CA /* Frameworks */,
+				5F35C4A605A096310030C7CA /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otx;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Hello World";
+			productReference = 5F35C4A905A096310030C7CA /* otx.bblm */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Hello World */;
+			productRefGroup = 089C166AFE841209C02AAC07 /* Hello World */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F35C49C05A096310030C7CA /* otx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F35C4A105A096310030C7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		5F35C4A605A096310030C7CA /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F35C4A205A096310030C7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F35C4A305A096310030C7CA /* otx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E4F91C008631638009D6578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				HEADER_SEARCH_PATHS = (
+					"\"$(DEVELOPER_DIR)/Headers/BBEdit SDK\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/Library/Application Support/TextWrangler/Language Modules";
+				OTHER_CFLAGS = "-fast";
+				PRODUCT_NAME = otx;
+				WRAPPER_EXTENSION = bblm;
+			};
+			name = Release;
+		};
+		2E4F91C408631638009D6578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4F91BE08631638009D6578 /* Build configuration list for PBXNativeTarget "otx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4F91C008631638009D6578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4F91C408631638009D6578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

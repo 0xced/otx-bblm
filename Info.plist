@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>ch.pitaya.bblm.otx</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>BBLM</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>com.barebones.bblminfo</key>
+	<array>
+		<dict>
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			<key>BBLMColorsSyntax</key>
+			<false/>
+			<key>BBLMDroppedFilePathStyle</key>
+			<string>POSIX</string>
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			<key>BBLMLanguageCode</key>
+			<string>otx </string>
+			<key>BBLMLanguageDisplayName</key>
+			<string>otx</string>
+			<key>BBLMMainFunctionName</key>
+			<string>otx_main</string>
+			<key>BBLMScansFunctions</key>
+			<true/>
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.dis</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.otx</string>
+				</dict>
+			</array>
+			<key>BBLMUseHTMLFileSearchRules</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>
