@@ -129,7 +129,6 @@
 			buildSettings = {
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/BBEdit SDK/Interfaces/Language Modules\"",
 					"\"$(SRCROOT)/BBEdit SDK/Interfaces/Tools\"",
