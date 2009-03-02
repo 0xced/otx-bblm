@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1D262C068B4F4D00DA0BE2 /* TeXModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1D2628068B4F4D00DA0BE2 /* TeXModule.h */; };
+		2E1D262D068B4F4D00DA0BE2 /* scanTeX.cp in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D2629068B4F4D00DA0BE2 /* scanTeX.cp */; };
+		2E1D262E068B4F4D00DA0BE2 /* TeXModule.cp in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D262A068B4F4D00DA0BE2 /* TeXModule.cp */; };
+		2E1D262F068B4F4D00DA0BE2 /* parseTeX.cp in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D262B068B4F4D00DA0BE2 /* parseTeX.cp */; };
+		2E2C74190772386200C2AF0D /* BBXTInterfaceStructsAndEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2C740B0772386200C2AF0D /* BBXTInterfaceStructsAndEnums.h */; };
+		2E2C741B0772386200C2AF0D /* BBXTImplementationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2C74100772386200C2AF0D /* BBXTImplementationMacros.h */; };
+		5F05133B05A0957400BD0E76 /* BBLMTextIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EADE3E1056EA12A004A4EFC /* BBLMTextIterator.h */; };
+		5F05133C05A0957400BD0E76 /* BBLMInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EADE3E2056EA12A004A4EFC /* BBLMInterface.h */; };
+		5F05133D05A0957400BD0E76 /* BBXTInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EADE3E7056EA159004A4EFC /* BBXTInterface.h */; };
+		5F05134205A0957400BD0E76 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EADE3EB056EA181004A4EFC /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E1D2628068B4F4D00DA0BE2 /* TeXModule.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TeXModule.h; sourceTree = "<group>"; };
+		2E1D2629068B4F4D00DA0BE2 /* scanTeX.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = scanTeX.cp; sourceTree = "<group>"; };
+		2E1D262A068B4F4D00DA0BE2 /* TeXModule.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TeXModule.cp; sourceTree = "<group>"; };
+		2E1D262B068B4F4D00DA0BE2 /* parseTeX.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = parseTeX.cp; sourceTree = "<group>"; };
+		2E2C740B0772386200C2AF0D /* BBXTInterfaceStructsAndEnums.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BBXTInterfaceStructsAndEnums.h; path = ../../Interfaces/Tools/BBXTInterfaceStructsAndEnums.h; sourceTree = SOURCE_ROOT; };
+		2E2C74100772386200C2AF0D /* BBXTImplementationMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BBXTImplementationMacros.h; path = ../../Interfaces/Tools/BBXTImplementationMacros.h; sourceTree = SOURCE_ROOT; };
+		2EADE3E1056EA12A004A4EFC /* BBLMTextIterator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BBLMTextIterator.h; path = "../../Interfaces/Language Modules/BBLMTextIterator.h"; sourceTree = SOURCE_ROOT; };
+		2EADE3E2056EA12A004A4EFC /* BBLMInterface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BBLMInterface.h; path = "../../Interfaces/Language Modules/BBLMInterface.h"; sourceTree = SOURCE_ROOT; };
+		2EADE3E7056EA159004A4EFC /* BBXTInterface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BBXTInterface.h; path = ../../Interfaces/Tools/BBXTInterface.h; sourceTree = SOURCE_ROOT; };
+		2EADE3EB056EA181004A4EFC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		5F05134505A0957400BD0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F05134605A0957400BD0E76 /* TeX.bblm */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeX.bblm; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F05134105A0957400BD0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F05134205A0957400BD0E76 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Hello World */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				2EADE40E056EA22B004A4EFC /* SDK Headers */,
+				2EADE3EB056EA181004A4EFC /* Carbon.framework */,
+				5F05134505A0957400BD0E76 /* Info.plist */,
+				5F05134605A0957400BD0E76 /* TeX.bblm */,
+			);
+			name = "Hello World";
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2E1D262B068B4F4D00DA0BE2 /* parseTeX.cp */,
+				2E1D2629068B4F4D00DA0BE2 /* scanTeX.cp */,
+				2E1D262A068B4F4D00DA0BE2 /* TeXModule.cp */,
+				2E1D2628068B4F4D00DA0BE2 /* TeXModule.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		2EADE40E056EA22B004A4EFC /* SDK Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2EADE3E1056EA12A004A4EFC /* BBLMTextIterator.h */,
+				2E2C74100772386200C2AF0D /* BBXTImplementationMacros.h */,
+				2EADE3E2056EA12A004A4EFC /* BBLMInterface.h */,
+				2EADE3E7056EA159004A4EFC /* BBXTInterface.h */,
+				2E2C740B0772386200C2AF0D /* BBXTInterfaceStructsAndEnums.h */,
+			);
+			name = "SDK Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F05133A05A0957400BD0E76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F05133B05A0957400BD0E76 /* BBLMTextIterator.h in Headers */,
+				5F05133C05A0957400BD0E76 /* BBLMInterface.h in Headers */,
+				5F05133D05A0957400BD0E76 /* BBXTInterface.h in Headers */,
+				2E1D262C068B4F4D00DA0BE2 /* TeXModule.h in Headers */,
+				2E2C74190772386200C2AF0D /* BBXTInterfaceStructsAndEnums.h in Headers */,
+				2E2C741B0772386200C2AF0D /* BBXTImplementationMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F05133905A0957400BD0E76 /* TeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4F91DC0863165E009D6578 /* Build configuration list for PBXNativeTarget "TeX" */;
+			buildPhases = (
+				5F05133A05A0957400BD0E76 /* Headers */,
+				5F05133E05A0957400BD0E76 /* Resources */,
+				5F05133F05A0957400BD0E76 /* Sources */,
+				5F05134105A0957400BD0E76 /* Frameworks */,
+				5F05134305A0957400BD0E76 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeX;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Hello World";
+			productReference = 5F05134605A0957400BD0E76 /* TeX.bblm */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2E4F91E00863165E009D6578 /* Build configuration list for PBXProject "TeX" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Hello World */;
+			productRefGroup = 089C166AFE841209C02AAC07 /* Hello World */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F05133905A0957400BD0E76 /* TeX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F05133E05A0957400BD0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		5F05134305A0957400BD0E76 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F05133F05A0957400BD0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1D262D068B4F4D00DA0BE2 /* scanTeX.cp in Sources */,
+				2E1D262E068B4F4D00DA0BE2 /* TeXModule.cp in Sources */,
+				2E1D262F068B4F4D00DA0BE2 /* parseTeX.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E4F91DD0863165E009D6578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = TeX;
+				WRAPPER_EXTENSION = bblm;
+			};
+			name = Debug;
+		};
+		2E4F91DE0863165E009D6578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = TeX;
+				WRAPPER_EXTENSION = bblm;
+			};
+			name = Release;
+		};
+		2E4F91E10863165E009D6578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_MODE_FLAG = "ug+w,o-w,a+rX";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		2E4F91E20863165E009D6578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_MODE_FLAG = "ug+w,o-w,a+rX";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4F91DC0863165E009D6578 /* Build configuration list for PBXNativeTarget "TeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4F91DD0863165E009D6578 /* Debug */,
+				2E4F91DE0863165E009D6578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2E4F91E00863165E009D6578 /* Build configuration list for PBXProject "TeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4F91E10863165E009D6578 /* Debug */,
+				2E4F91E20863165E009D6578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

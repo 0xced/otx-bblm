@@ -33,20 +33,12 @@
 		089C166AFE841209C02AAC07 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
-				08FB77ADFE841716C02AAC07 /* Source */,
+				2ED4605B05179C27006BE845 /* otx.cpp */,
 				2EADE3EB056EA181004A4EFC /* Carbon.framework */,
 				5F35C4A805A096310030C7CA /* Info.plist */,
 				5F35C4A905A096310030C7CA /* otx.bblm */,
 			);
 			name = "Hello World";
-			sourceTree = "<group>";
-		};
-		08FB77ADFE841716C02AAC07 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				2ED4605B05179C27006BE845 /* otx.cpp */,
-			);
-			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,12 +129,13 @@
 			buildSettings = {
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
-					"\"$(DEVELOPER_DIR)/Headers/BBEdit SDK\"",
+					"\"$(SRCROOT)/BBEdit SDK/Interfaces/Language Modules\"",
+					"\"$(SRCROOT)/BBEdit SDK/Interfaces/Tools\"",
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "/Library/Application Support/TextWrangler/Language Modules";
-				OTHER_CFLAGS = "-fast";
 				PRODUCT_NAME = otx;
 				WRAPPER_EXTENSION = bblm;
 			};

@@ -36,7 +36,7 @@ static void otx_scanForFunctions(BBLMParamBlock &pb, const BBLMCallbackBlock &bb
 		bool isClassMethod = text[pos] == '+';
 		bool isInstanceMethod = text[pos] == '-';
 		
-		if ((text[pos] != ' ' && text[pos] != '/' && text[pos] != '(' && text[pos] != '#') && !(isClassMethod && isdigit(text[pos+1])))
+		if ((text[pos] != ' ' && text[pos] != '\t' && text[pos] != '/' && text[pos] != '(' && text[pos] != '#') && !(isClassMethod && isdigit(text[pos+1])))
 		{
 			if (procInfo.fFunctionStart != 0)
 			{
