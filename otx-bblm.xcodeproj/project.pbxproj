@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F35C4A305A096310030C7CA /* otx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4605B05179C27006BE845 /* otx.cpp */; };
+		5F35C4A305A096310030C7CA /* otx-bblm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4605B05179C27006BE845 /* otx-bblm.cpp */; };
 		5F35C4A505A096310030C7CA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EADE3EB056EA181004A4EFC /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EADE3EB056EA181004A4EFC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		2ED4605B05179C27006BE845 /* otx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = otx.cpp; sourceTree = "<group>"; };
+		2ED4605B05179C27006BE845 /* otx-bblm.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "otx-bblm.cpp"; sourceTree = "<group>"; };
 		5F35C4A805A096310030C7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F35C4A905A096310030C7CA /* otx.bblm */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otx.bblm; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -33,9 +33,9 @@
 		089C166AFE841209C02AAC07 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
-				2ED4605B05179C27006BE845 /* otx.cpp */,
-				2EADE3EB056EA181004A4EFC /* Carbon.framework */,
+				2ED4605B05179C27006BE845 /* otx-bblm.cpp */,
 				5F35C4A805A096310030C7CA /* Info.plist */,
+				2EADE3EB056EA181004A4EFC /* Carbon.framework */,
 				5F35C4A905A096310030C7CA /* otx.bblm */,
 			);
 			name = "Hello World";
@@ -54,9 +54,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5F35C49C05A096310030C7CA /* otx */ = {
+		5F35C49C05A096310030C7CA /* otx-bblm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E4F91BE08631638009D6578 /* Build configuration list for PBXNativeTarget "otx" */;
+			buildConfigurationList = 2E4F91BE08631638009D6578 /* Build configuration list for PBXNativeTarget "otx-bblm" */;
 			buildPhases = (
 				5F35C49D05A096310030C7CA /* Headers */,
 				5F35C4A105A096310030C7CA /* Resources */,
@@ -68,7 +68,7 @@
 			);
 			dependencies = (
 			);
-			name = otx;
+			name = "otx-bblm";
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = "Hello World";
 			productReference = 5F35C4A905A096310030C7CA /* otx.bblm */;
@@ -79,7 +79,7 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx" */;
+			buildConfigurationList = 2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx-bblm" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* Hello World */;
@@ -87,7 +87,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F35C49C05A096310030C7CA /* otx */,
+				5F35C49C05A096310030C7CA /* otx-bblm */,
 			);
 		};
 /* End PBXProject section */
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F35C4A305A096310030C7CA /* otx.cpp in Sources */,
+				5F35C4A305A096310030C7CA /* otx-bblm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E4F91BE08631638009D6578 /* Build configuration list for PBXNativeTarget "otx" */ = {
+		2E4F91BE08631638009D6578 /* Build configuration list for PBXNativeTarget "otx-bblm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E4F91C008631638009D6578 /* Release */,
@@ -158,7 +158,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx" */ = {
+		2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx-bblm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E4F91C408631638009D6578 /* Release */,
