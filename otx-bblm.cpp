@@ -61,7 +61,8 @@ static void otx_scanForFunctions(BBLMParamBlock &pb, const BBLMCallbackBlock &bb
 			{
 				// function
 				if (text[pos] == '_') { fnamestart++; funcnamelen--; }
-				while (!isEOL(text[pos])) { pos++; funcnamelen++; }
+				while (!isEOL(text[pos]) && pos < pb.fTextLength) { pos++; funcnamelen++; }
+                if (pos >= pb.fTextLength) return;
 				if (text[pos-1] == ':') { funcnamelen--; }
 			}
 			
