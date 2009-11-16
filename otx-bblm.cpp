@@ -99,7 +99,7 @@ static void otx_guessLanguage(BBLMParamBlock &pb, const BBXTCallbackBlock *bbxt_
 	UInt32 pos = 0;
 	BBLMTextIterator text(pb);
 	
-	while (!isEOL(text[pos]))
+	while (!isEOL(text[pos]) && (pos < (PATH_MAX * 4)))
 	{
 		UniChar c = text[pos++];
 		CFStringAppendCharacters(path, &c, 1);
