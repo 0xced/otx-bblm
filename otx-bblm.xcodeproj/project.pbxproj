@@ -63,6 +63,7 @@
 				5F35C4A205A096310030C7CA /* Sources */,
 				5F35C4A405A096310030C7CA /* Frameworks */,
 				5F35C4A605A096310030C7CA /* Rez */,
+				DAD84D2310AAFE4700623E13 /* Remove language modules cache */,
 			);
 			buildRules = (
 			);
@@ -111,6 +112,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAD84D2310AAFE4700623E13 /* Remove language modules cache */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove language modules cache";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "defaults delete com.barebones.textwrangler \"Sufx:128\"\nexit 0\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F35C4A205A096310030C7CA /* Sources */ = {
