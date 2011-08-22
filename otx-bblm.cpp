@@ -52,10 +52,26 @@ static void otx_scanForFunctions(BBLMParamBlock &pb, const BBLMCallbackBlock &bb
 			
 			if (isClassMethod || isInstanceMethod)
 			{
-				// ObjC method
-				fnamestart++;
-				while (text[pos] != ')') { pos++; fnamestart++; }
-				while (!isEOL(text[pos])) { pos++; funcnamelen++; }				
+				// ObjC method -- examples:
+				//
+				// -[Class(category) method]:
+				// -(id)[Class method:]
+				// -(id)[Class method]
+				// +(id)[Class method:]
+				
+				// some methods have a ':' after the closing bracket
+				// some methods have a return type, some don't
+				
+				fnamestart++; // skip the leading + or - for class/instance method
+				
+				// scan over possible return types until the start of the function
+				while (text[pos] != '[') { pos++; fnamestart++; } 
+				
+				// scan until the end of the function name, either end of line or ']'
+				while (!isEOL(text[pos]) && text[pos] != ']') { pos++; funcnamelen++; }
+
+				// function name includes a ] now, remove it
+				if (text[pos] == ']') funcnamelen--; 
 			}
 			else
 			{

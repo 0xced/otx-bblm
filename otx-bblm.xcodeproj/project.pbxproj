@@ -82,7 +82,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 2E4F91C208631638009D6578 /* Build configuration list for PBXProject "otx-bblm" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* Hello World */;
 			productRefGroup = 089C166AFE841209C02AAC07 /* Hello World */;
 			projectDirPath = "";
